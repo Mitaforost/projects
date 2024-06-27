@@ -1,0 +1,80 @@
+@import "normalize.css";
+@import "base/variables";
+@import "libs/fonts";
+
+*,
+input,
+*::before, *::after {
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 0;
+}
+body::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+  background-color: #d6d6d6;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: #ffca33;
+  border-radius: 3px;
+}
+.container {
+  max-width: 1250px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.h1, h1 {
+  font-size: 50px;
+  line-height: normal;
+}
+
+.h2, h2 {
+  font-size: 32px;
+  line-height: normal;
+  text-align: center;
+}
+
+p {
+  font-size: 18px;
+  line-height: 160%;
+}
+
+.p1 {
+  font-size: 21px;
+}
+
+.p2 {
+  font-size: 20px;
+}
+
+.p3 {
+  font-size: 18px;
+}
+
+.p4 {
+  font-size: 16px;
+}
+@import "blocks/button";
+@import "blocks/header";
+@import "blocks/wholesale";
+@import "blocks/networks";
+@import "blocks/advantages";
+@import "blocks/cooperation";
+@import "blocks/contact";
+@import "blocks/trending";
+@import "blocks/assortment";
+@import "blocks/footer";
+@import "blocks/modal";
+@import "blocks/media";

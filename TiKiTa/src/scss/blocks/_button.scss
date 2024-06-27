@@ -1,0 +1,34 @@
+.btn-primary{
+  border-radius: 5px;
+  background-color: #FFCA33;
+  color: #383838;
+  padding: 30px 34px;
+  border: 1px solid transparent;
+  transition: all .3s;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  text-transform: uppercase;
+  &:hover{
+    border: 1px solid #FFCA33;
+    color: #FFCA33;
+    background-color: #FFFFFF;
+  }
+}
+.btn-secondary{
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 170%;
+  text-transform: uppercase;
+  padding: 13px 0;
+  width: 100%;
+  border-radius: 5px;
+  background-color: transparent;
+  color: #333;
+  border: 1px solid #333;
+  transition: all .3s;
+  &:hover{
+    border: 1px solid #FFCA33;
+    background-color: #FFCA33;
+  }
+}

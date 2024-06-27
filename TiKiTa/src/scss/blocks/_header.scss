@@ -1,0 +1,123 @@
+.header{
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin-bottom: 60px;
+  &__top{
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__nav{
+    display: flex;
+    align-items: center;
+    gap: 35px;
+  }
+  &__link{
+    color: #FFFFFF;
+  }
+  &__right{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(2, auto);
+    column-gap: 12px;
+    align-items: center;
+  }
+  &__phone-link{
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 140%;
+    color: #FFFFFF;
+  }
+  &__call-link{
+    color: #FFCA33;
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration-line: underline;
+  }
+  &__info{
+    padding: 60px 0 120px 0;
+    display: grid;
+    grid-template-columns: 7fr 5fr;
+    column-gap: 145px;
+    margin: auto 0;
+  }
+  &__inner{
+    padding-top: 48px;
+    display: flex;
+    flex-direction: column;
+  }
+  &__title{
+    color: #FFFFFF;
+    line-height: 120%;
+    span{
+      color: #FFCA33;
+    }
+  }
+  &__advantages{
+    padding-top: 60px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 40px;
+    max-width: 400px;
+  }
+  &__item{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    p{
+      font-weight: 500;
+      color: #FFFFFF;
+      span{
+        color: #FFCA33;
+      }
+    }
+  }
+  &__form{
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 48px 30px;
+    display: flex;
+    flex-direction: column;
+  }
+  .header-form{
+    &__title{
+      display: block;
+      font-weight: 700;
+      font-size: 25px;
+      line-height: 140%;
+      color: #333333;
+      margin-bottom: 10px;
+      max-width: 270px;
+    }
+    &__text{
+      display: block;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 170%;
+      color: #4F4F4F;
+      margin-bottom: 25px;
+      max-width: 270px;
+      span{
+        color: #FF1515;
+      }
+    }
+    &__group{
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-gap: 20px;
+      margin-bottom: 20px;
+    }
+    &__input{
+      width: 100%;
+      height: 60px;
+      padding-left: 15px;
+      background: #F6F6F6;
+      border: 1px solid #F2F2F2;
+      border-radius: 5px;
+      font-size: 14px;
+      color: #4F4F4F;
+    }
+  }
+}

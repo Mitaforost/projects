@@ -1,0 +1,66 @@
+.cooperation_bg{
+  background: #F6F6F6;
+}
+.cooperation{
+  margin-bottom: 100px;
+  padding: 100px 0;
+  &__title{
+    max-width: 920px;
+    margin: 0 auto 50px auto;
+    display: block;
+  }
+  &__cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+  }
+  &__card{
+    border: 1px solid #F2F2F2;
+    border-radius: 5px;
+    background: #FFFFFF;
+    transition: all 0.3s;
+    &:hover{
+      border: 1px solid #ffca33;
+    }
+  }
+  .cooperation-card{
+    position: relative;
+    &__top{
+      position: relative;
+      height: 225px;
+      border-radius: 5px;
+      &-img{
+        display: block;
+        width: 100%;
+        height: 100%;
+      }
+      &-icon{
+        position: absolute;
+        bottom: -20px;
+        left: 20px;
+      }
+    }
+    &__content{
+      height: calc(100% - 225px);
+      padding: 35px 20px 30px 20px;
+      display: flex;
+      flex-flow: column;
+      justify-content: space-between;
+    }
+    &__title{
+      display: block;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 140%;
+      color: #333333;
+      margin-bottom: 20px;
+    }
+    &__text{
+      display: block;
+      font-size: 14px;
+      line-height: 160%;
+      color: #4F4F4F;
+      margin-bottom: 30px;
+    }
+  }
+}
